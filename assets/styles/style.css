@@ -1,0 +1,48 @@
+
+body{
+    text-align:center;
+}
+
+.container{
+    margin:25px;
+    border:1px solid black;
+}
+
+/*Posiciones
+
+Static
+Es la posición por defecto, todos los elementos HTML son estáticos. Los elementos se posicionan en el flujo normal del documento (arriba, abajo, izquierda, derecha). Los valores top, bottom, right, left no tienen efecto sobre esta propiedad.
+
+*/
+
+.position{
+    position:relative; /* Este elemento indica cómo se va a colocar*/
+    /*Los valores de abajo indican dónde se va a colocar*/
+    top:50px; 
+    /*left:100px;
+    right:50px;
+    bottom:60px;*/
+
+
+}
+
+/*
+span{
+    color:blueviolet;
+    border: 1px solid red;
+}
+*/
+
+/* Atributo position
+
+Sirve para poner o acomodar los elementos dentro de nuestro HTML
+
+La propiedad de position de CSS se utiliza para controlar la ubicación y el posicionamiento de un elemento HTML en una página. La propiedad position acepta diferentes valores, cad uno de los cuales determina como se posiciona un elemento en relación con su elemento padreo en relación con la ventana del navegador (el flujo normal de nuestra ventana es a partir de la esquina superior izquierda)
+
+    -static
+    -relative
+    -absoulute
+    -fixed
+    -sticky
+
+*/
