@@ -14,17 +14,43 @@ Static
 Es la posición por defecto, todos los elementos HTML son estáticos. Los elementos se posicionan en el flujo normal del documento (arriba, abajo, izquierda, derecha). Los valores top, bottom, right, left no tienen efecto sobre esta propiedad.
 
 */
-
+/*
 .position{
     position:relative; /* Este elemento indica cómo se va a colocar*/
     /*Los valores de abajo indican dónde se va a colocar*/
-    top:50px; 
+    /*top:50px; 
     /*left:100px;
     right:50px;
     bottom:60px;*/
 
 
+/*}*/
+
+/*Relative
+Posiciona el elemento en relación con su prosición normal en el flujo de trabajo del documento. A pesar de que el elemento comienza con una posición normal, si le afectan los valores que le modifiquemos en top, bottom, left, right.
+
+*/
+/*
+.position{
+    position:relative;
+    left:35px;
 }
+*/
+
+/*Fixed
+Se modifica dependiendo de la posición de la pantalla y depende también de cuánto espacio tenemos disponible (viewport que es lo que el usuario ve actualmente en la pantalla). 
+
+Este estilo se aplica generalmente a barras de navegación. Cuando aplicamos esta propiedad, aseguramos que el elemento se mantenga visible independientemente de como  se ajuste la ventana (viewport). Es similar al absolute, mas no al body.
+
+*/
+.position{
+    position:fixed;
+    left:25px;
+    top:50px;
+}
+
+
+
 
 /*
 span{
