@@ -43,12 +43,28 @@ Se modifica dependiendo de la posición de la pantalla y depende también de cu�
 Este estilo se aplica generalmente a barras de navegación. Cuando aplicamos esta propiedad, aseguramos que el elemento se mantenga visible independientemente de como  se ajuste la ventana (viewport). Es similar al absolute, mas no al body.
 
 */
+/*
 .position{
     position:fixed;
     left:25px;
     top:50px;
+}*/
+
+/*Absolute
+
+Para poder utilizar esta posición, debemos tomar en cuenta también el contexto de nuestro padre(contenedor-padre). Esto quiere decir que todo lo que le pase al padre, se toma como contexto y eso afectará al hijo (margen, padding, etc.). Generalmente se usa para barras de navegación, menus desplegables y animaciones (elementos que se quedarán en un solo lugar respecto al elemento que los contiene).
+*/
+
+.container-padre{
+    margin:25px;
+    padding:25px;
+    border: 1px solid black;
 }
 
+.position{
+    position:absolute;
+    top: 50px;
+}
 
 
 
