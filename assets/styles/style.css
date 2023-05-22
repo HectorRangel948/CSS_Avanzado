@@ -1,6 +1,7 @@
 
 body{
     text-align:center;
+    height:5000px;
 }
 
 .container{
@@ -55,6 +56,7 @@ Este estilo se aplica generalmente a barras de navegación. Cuando aplicamos est
 Para poder utilizar esta posición, debemos tomar en cuenta también el contexto de nuestro padre(contenedor-padre). Esto quiere decir que todo lo que le pase al padre, se toma como contexto y eso afectará al hijo (margen, padding, etc.). Generalmente se usa para barras de navegación, menus desplegables y animaciones (elementos que se quedarán en un solo lugar respecto al elemento que los contiene).
 */
 
+/*
 .container-padre{
     margin:25px;
     padding:25px;
@@ -65,7 +67,18 @@ Para poder utilizar esta posición, debemos tomar en cuenta también el contexto
     position:absolute;
     top: 50px;
 }
+*/
 
+/*Sticky
+Se utiliza para fijar o pegar un elemento en una posición específica de la ventana del navegador. 
+Esto significa que el elemento se va a comportar como una posición relativa HASTA que se desplaza a una posición en la que se debe fijar. 
+
+*/
+
+.position{
+    position:sticky;
+    top:25px;
+}
 
 
 /*
